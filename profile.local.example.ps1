@@ -1,7 +1,3 @@
-# Configures manual proxy to use your corporate proxy
-# Set-ItemProperty -path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings" ProxyEnable -value 1
-# Set-ItemProperty -path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Internet Settings" ProxyServer -value proxy_here:port_number_here
-
 Set-Theme agnoster
 $ThemeSettings.Colors.PromptBackgroundColor = [ConsoleColor]::blue
 $ThemeSettings.Colors.PromptForegroundColor = [ConsoleColor]::DarkBlue
