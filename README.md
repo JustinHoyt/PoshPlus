@@ -12,3 +12,8 @@ PoshPlus's is a tool that sets up a beautiful and generally useful development e
 - Provides all of the git aliases available in oh-my-zsh
     - There is also a function built in to help discover the git aliases called `howto`
     - E.g. `howto commit` will list every alias using a git commit
+
+## Installation
+- Run `./install.ps1`
+- Change the Main Console Font and Alternative Console Font to Meslo LG M for Powerline
+    - This font comes installed with the installation script
