@@ -148,6 +148,6 @@ function gup { git pull --rebase $args }
 function gupv { git pull --rebase -v $args }
 function gwch { git whatchanged -p --abbrev-commit --pretty=medium $args }
 function gwip { git add -A; git rm $(git ls-files --deleted) 2> /dev/null; git commit --no-verify -m "--wip-- [skip ci]" $args }
-function howto { cat $profile | grep $args }
+function howto { cat ~/Documents/WindowsPowerShell/profile.ps1 | grep $args }
 
-~/Documents/WindowsPowerShell/profile.local.ps1
+. ~/Documents/WindowsPowerShell/profile.local.ps1
