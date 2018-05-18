@@ -11,4 +11,4 @@ PoshPlus's is a tool that sets up a beautiful and generally useful development e
 - Provides the beautiful agnoster theme with the solarized color scheme in mind
 - Provides all of the git aliases available in oh-my-zsh
     - There is also a function built in to help discover the git aliases called `howto`
-    - e.g. `howto commit` will list every alias with the word commit in it
+    - E.g. `howto commit` will list every alias using a git commit
