@@ -10,8 +10,9 @@ $ThemeSettings.Colors.AdminIconForegroundColor = [ConsoleColor]::Yellow
 $ThemeSettings.Colors.SessionInfoForegroundColor = [ConsoleColor]::DarkGray
 $DefaultUser = "$ENV:USERNAME"
 
-$env:http_proxy = "http://proxyvipfmcc.nb.ford.com:83"
-$env:https_proxy = "http://proxyvipfmcc.nb.ford.com:83"
+# Set up your proxy here
+$env:http_proxy = "your_proxy_here:your_port_here"
+$env:https_proxy = "your_proxy_here:your_port_here"
 
 # Add your own projects here to quickly access them
 # function my-project { cd "~/development/my-project" }
