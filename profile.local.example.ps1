@@ -11,8 +11,8 @@ $ThemeSettings.Colors.SessionInfoForegroundColor = [ConsoleColor]::DarkGray
 $DefaultUser = "$ENV:USERNAME"
 
 # Set up your proxy here
-$env:http_proxy = "your_proxy_here:your_port_here"
-$env:https_proxy = "your_proxy_here:your_port_here"
+# $env:http_proxy = "your-proxy-here:your-port-here"
+# $env:https_proxy = "your-proxy-here:your-port-here"
 
 # Add your own projects here to quickly access them
-# function my-project { cd "~/development/my-project" }
+# function my-project { cd "~/path-to-project/my-project" }
