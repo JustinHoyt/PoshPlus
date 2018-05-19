@@ -1,6 +1,6 @@
 # PoshPlus
 
-PoshPlus's is a tool that sets up a beautiful and generally useful development environment for powershell. It borrows from Oh-my-zsh in nature
+PoshPlus's is a tool that sets up a beautiful and generally useful development environment for powershell. It borrows from Oh-My-Zsh
 
 ## Features
 
@@ -19,5 +19,6 @@ PoshPlus's is a tool that sets up a beautiful and generally useful development e
 - In the startup menu screen
     - Set the startup shell to Powershell Admin
     - Set the color scheme to Solarized
-- Change the Main Console Font and Alternative Console Font to Meslo LG M for Powerline
+- Once ConEmu starts open the settings and find the Main Console Font and Alternative Console Font
+    - Change both of them to Meslo LG M for Powerline
     - This font comes installed with the installation script
