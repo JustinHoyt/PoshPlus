@@ -19,6 +19,6 @@ PoshPlus's is a tool that sets up a beautiful and generally useful development e
 - In the startup menu screen
     - Set the startup shell to Powershell Admin
     - Set the color scheme to Solarized
-- Once ConEmu starts open the settings and find the Main Console Font and Alternative Console Font
-    - Change both of them to Meslo LG M for Powerline
+- Once ConEmu starts open the settings and find the `Main Console Font` and `Alternative Console Font` settings
+    - Change both of them to `Meslo LG M for Powerline`
     - This font comes installed with the installation script
