@@ -13,6 +13,7 @@ if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"
 }
 
+# Add git utilities to the path
 $env:Path += ";C:\Program Files\Git\usr\bin"
 
 # Git Aliases
