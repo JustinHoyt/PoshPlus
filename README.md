@@ -1,6 +1,6 @@
 # PoshPlus
 
-PoshPlus's is a tool that sets up a beautiful and generally useful development environment for powershell. It borrows from Oh-My-Zsh
+PoshPlus is a tool that sets up a beautiful and generally useful development environment for powershell. It borrows from Oh-My-Zsh and utilizes the Agnoster theme.
 
 ## Features
 
