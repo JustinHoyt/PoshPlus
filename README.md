@@ -15,5 +15,7 @@ PoshPlus's is a tool that sets up a beautiful and generally useful development e
 
 ## Installation
 - Run `./install.ps1`
+- Open ConEmu the new terminal that comes installed
+- Set the color scheme to Solarized
 - Change the Main Console Font and Alternative Console Font to Meslo LG M for Powerline
     - This font comes installed with the installation script
