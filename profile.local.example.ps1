@@ -1,3 +1,4 @@
+# Modify your theme and theme colors here
 Set-Theme agnoster
 $ThemeSettings.Colors.PromptBackgroundColor = [ConsoleColor]::blue
 $ThemeSettings.Colors.PromptForegroundColor = [ConsoleColor]::DarkBlue
