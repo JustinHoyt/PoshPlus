@@ -22,3 +22,4 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
 - Once ConEmu starts open the settings and find the `Main Console Font` and `Alternative Console Font` settings
     - Change both of them to `Meslo LG M for Powerline`
     - This font comes installed with the installation script
+    - <b>If you do not change the font, the powerline symbols will render as a question marks<b>
