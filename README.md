@@ -17,7 +17,7 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
 - Run `./install.ps1`
 - Open ConEm - the new terminal that comes installed
 - In the startup menu screen
-    - Set the startup shell to <b>Powershell<b> or <b>Powershell Admin<b>
+    - Set the startup shell to <b>Powershell<b> or Powershell Admin
     - Set the color scheme to Solarized
 - Once ConEmu starts open the settings and find the `Main Console Font` and `Alternative Console Font` settings
     - Change both of them to `Meslo LG M for Powerline`
