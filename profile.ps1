@@ -21,6 +21,10 @@ Set-Alias -Name g -Value git
 Remove-Item alias:gl -Force
 Remove-Item alias:gp -Force
 Remove-Item alias:gc -Force
+Remove-Item alias:gcm -Force
+Remove-Item alias:gcs -Force
+Remove-Item alias:gm -Force
+
 function ga { git add $args }
 function gaa { git add --all $args }
 function gap { git apply $args }
