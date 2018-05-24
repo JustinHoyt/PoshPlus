@@ -1,7 +1,4 @@
 Set-Alias -Name list -Value get-childitem
-Remove-Item alias:ls
-function List-Columns {get-childitem $args[0] | fw -c 5}
-Set-Alias ls List-Columns
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 
 Import-Module Posh-Git
@@ -24,7 +21,9 @@ Remove-Item alias:gc -Force
 Remove-Item alias:gcm -Force
 Remove-Item alias:gcs -Force
 Remove-Item alias:gm -Force
+Remove-Item alias:ls -Force
 
+function ls { get-childitem $args[0] | Format-Wide -AutoSize }
 function ga { git add $args }
 function gaa { git add --all $args }
 function gap { git apply $args }
