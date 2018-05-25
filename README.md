@@ -11,7 +11,7 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
 - Installs any number of packages you give the install script
 - Setups a profile.ps1 with nice defaults and a profile.local.ps1 where you can set your own preferences
 - Up arrow searchs through command history
-- Provides all of the git aliases available in oh-my-zsh
+- Provides all of the over 100 git aliases available in oh-my-zsh
     - There is also a function built in to help discover the git aliases called `howto`
     - E.g. `howto commit` will list every alias using a git commit
 
