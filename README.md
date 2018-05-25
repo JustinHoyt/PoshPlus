@@ -17,6 +17,7 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
 
 ## Installation
 - Run `./install.ps1`
+    - for more information on what you can install with the install script, read the section below
 - Open ConEm - the new terminal that comes installed
 - In the startup menu screen
     - Set the startup shell to <b>Powershell</b> or <b>Powershell Admin</b>
