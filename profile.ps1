@@ -1,5 +1,7 @@
 Set-Alias -Name list -Value get-childitem
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 
 Import-Module Posh-Git
 Import-Module oh-my-posh
