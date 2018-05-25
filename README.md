@@ -7,11 +7,10 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
 ## Features
 
 - provides a beautiful terminal experience
+- Comes with the Chocolatey package manager
 - Installs any number of packages you give the install script
-- Setups a profile.ps1 with nice defaults
-- Setups a profile.local.ps1 with more opinionated defaults and options that can be changed
-- Comes with a package manager - Chocolatey
-- Up arrow will search through command history
+- Setups a profile.ps1 with nice defaults and a profile.local.ps1 where you can set your own preferences
+- Up arrow searchs through command history
 - Provides all of the git aliases available in oh-my-zsh
     - There is also a function built in to help discover the git aliases called `howto`
     - E.g. `howto commit` will list every alias using a git commit
