@@ -25,3 +25,21 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
     - Change both of them to `Meslo LG M for Powerline`
     - This font comes installed with the installation script
     - <b>If you do not change the font, the powerline symbols will render as a question marks</b>
+
+## What can I install with the install script?
+
+The install script will install any number of chocolatey packages you need. A few packages are given aliases in the script to make them more intuitive to use than their chocolatey names. For example, `intellij` will install the `intellijidea-ultimate` chocolatey package.
+
+### Example installation
+
+`./install intellij java10 vscode node9`
+
+Other examples of packages you can install are:
+* atom
+* vim
+* python
+* eclipse
+* virtualbox
+* vagrant
+* Any of the packages [here](https://chocolatey.org/search?q=) by just giving the name of the package.
+
