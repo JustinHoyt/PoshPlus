@@ -18,6 +18,23 @@ if(!(Test-Path "~/fonts" -PathType Container)) {
     ~/fonts/install.ps1 "Meslo LG M Regular for Powerline"
 }
 
+$installList = @{
+    "intellij" = "intellijidea-ultimate"
+    "node8" = "nodejs.install --version 8.11.2"
+    "node9" = "nodejs.install --version 9.11.1"
+    "node10" = "nodejs.install --version 10.2.1"
+    "node" = "nodejs.install"
+    "java8" = "jdk8"
+    "java10" = "jdk10"
+}
+foreach ($item in $args) {
+    if($installList.Contains($item)) {
+        "choco install -y " + $installList[$item]
+    } else {
+        "choco install -y " + $item
+    }
+}
+
 # Installs Powershell profile alongside any current one
 If (Test-Path -Path "~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1") {
     rm -Force ~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1
