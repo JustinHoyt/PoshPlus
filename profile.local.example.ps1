@@ -11,6 +11,11 @@ $ThemeSettings.Colors.AdminIconForegroundColor = [ConsoleColor]::Yellow
 $ThemeSettings.Colors.SessionInfoForegroundColor = [ConsoleColor]::DarkGray
 $DefaultUser = "$ENV:USERNAME"
 
+# Enable Vim mode here
+# Set-PSReadLineOption -EditMode vi
+# Set-PSReadLineKeyHandler -Key Ctrl+P -Function HistorySearchBackward
+# Set-PSReadLineKeyHandler -Key Ctrl+N -Function HistorySearchForward
+
 # Set up your proxy here
 # $env:http_proxy = "your-proxy-here:your-port-here"
 # $env:https_proxy = "your-proxy-here:your-port-here"
