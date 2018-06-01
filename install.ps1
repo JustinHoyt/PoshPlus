@@ -29,9 +29,9 @@ $installList = @{
 }
 foreach ($item in $args) {
     if($installList.Contains($item)) {
-        "choco install -y " + $installList[$item]
+        Invoke-Expression "choco install -y " + $installList[$item]
     } else {
-        "choco install -y " + $item
+        Invoke-Expression "choco install -y " + $item
     }
 }
 
