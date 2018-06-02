@@ -35,11 +35,6 @@ foreach ($item in $args) {
     }
 }
 
-# Installs Powershell profile alongside any current one
-If (Test-Path -Path "~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1") {
-    rm -Force ~/Documents/WindowsPowerShell/Microsoft.PowerShell_profile.ps1
-}
-
 If (Test-Path -Path "./profile.local.ps1") {
     echo "Profile.local is already set up"
 } else {
