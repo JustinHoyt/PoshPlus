@@ -24,6 +24,7 @@ Remove-Item alias:gcm -Force
 Remove-Item alias:gcs -Force
 Remove-Item alias:gm -Force
 Remove-Item alias:ls -Force
+Remove-Item alias:gcb -Force
 
 function ls { get-childitem $args[0] | Format-Wide -AutoSize }
 function ga { git add $args }
