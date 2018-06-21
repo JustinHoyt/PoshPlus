@@ -26,8 +26,8 @@ Remove-Item alias:gm -Force
 Remove-Item alias:ls -Force
 Remove-Item alias:gcb -Force
 
-$POSH_PLUS_PROFILE = "~/Documents/WindowsPowerShell/profile.ps1"
-$LOCAL_PROFILE = "~/Documents/WindowsPowerShell/profile.local.ps1"
+$POSH_PLUS_PROFILE = "C:\Users\$env:USERNAME\Documents\WindowsPowerShell\profile.ps1"
+$LOCAL_PROFILE = "C:\Users\$env:USERNAME\Documents\WindowsPowerShell\profile.local.ps1"
 
 function ls { get-childitem $args[0] | Format-Wide -AutoSize }
 function ga { git add $args }
