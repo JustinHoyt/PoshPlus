@@ -22,3 +22,7 @@ $DefaultUser = "$ENV:USERNAME"
 
 # Add your own projects here to quickly access them
 # function my-project { cd "~/path-to-project/my-project" }
+
+# Keep this at the bottom of the file
+# Comment out to go back to cycling through autocomplete options
+Invoke-Expression "git config --global http.proxy http://proxyvipfmcc.nb.ford.com:83"
