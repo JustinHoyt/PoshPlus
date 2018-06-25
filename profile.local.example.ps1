@@ -25,4 +25,4 @@ $DefaultUser = "$ENV:USERNAME"
 
 # Keep this at the bottom of the file
 # Comment out to go back to cycling through autocomplete options
-Invoke-Expression "git config --global http.proxy http://proxyvipfmcc.nb.ford.com:83"
+Set-PSReadlineKeyHandler -Key Tab -Function Complete
