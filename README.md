@@ -17,6 +17,8 @@ PoshPlus is a tool that sets up a beautiful and generally useful development env
 
 
 ## Installation
+- Set your execution policy to RemoteSigned:
+    - `Set-ExecutionPolicy RemoteSigned`
 - Run `./install.ps1`
     - for more information on what you can install with the install script, read the section [below](#what-can-i-install-with-the-install-script)
 - Open ConEmu - the new terminal that comes installed
